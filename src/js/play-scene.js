@@ -278,7 +278,7 @@ class PlayScene extends Phaser.Scene {
 
     // metoden updateText för att uppdatera overlaytexten i spelet
     updateText() {
-        this.text.setText(`Arrow keys to move. Space to jump. P to pause.`);
+        this.text.setText(`WASD to move mouse to shoot shift to spawn foes`);
     }
 
     // när spelaren landar på en spik, då körs följande metod
